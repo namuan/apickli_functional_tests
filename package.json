@@ -1,0 +1,20 @@
+{
+	"name": "sample-component-tests",
+	"version": "1.0.0",
+	"scripts": {
+		"all": "cucumber-js Component/ -t @All -f json:report/cucumber-report.json",
+		"travel": "cucumber-js Component/ -t @Travel -f json:report/cucumber-report.json"
+	},
+	"devDependencies": {
+		"apickli": "2.1.0",
+		"cucumber": "^4",
+		"cucumber-html-reporter": "^4.0.4",
+		"mysql": "^2.16.0"
+	},
+	"dependencies": {
+		"base64-img": "^1.0.4",
+		"node-datetime": "^2.1.2",
+		"request-promise": "^4.2.4",
+		"uuid": "^3.3.3"
+	}
+}
