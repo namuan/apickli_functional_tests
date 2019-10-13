@@ -29,5 +29,5 @@ cd report
 node report.js
 ```
 
-which should start up a server to host the report in html format.
+which should generate and launch the browser with the HTML report.
 

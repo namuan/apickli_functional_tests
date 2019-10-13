@@ -2,8 +2,8 @@
 	"name": "sample-component-tests",
 	"version": "1.0.0",
 	"scripts": {
-		"all": "cucumber-js Component/ -t @All -f json:report/cucumber-report.json",
-		"travel": "cucumber-js Component/ -t @Travel -f json:report/cucumber-report.json"
+		"all": "cucumber-js tests/ -t @All -f json:report/cucumber-report.json",
+		"travel": "cucumber-js tests/ -t @Travel -f json:report/cucumber-report.json"
 	},
 	"devDependencies": {
 		"apickli": "2.1.0",
