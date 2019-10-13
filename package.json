@@ -3,18 +3,12 @@
 	"version": "1.0.0",
 	"scripts": {
 		"all": "cucumber-js tests/ -t @All -f json:report/cucumber-report.json",
-		"travel": "cucumber-js tests/ -t @Travel -f json:report/cucumber-report.json"
+		"travel": "cucumber-js tests/ -t @Travel -f json:report/cucumber-report.json",
+		"report": "node report/report.js"
 	},
 	"devDependencies": {
-		"apickli": "2.1.0",
+		"apickli": "2.3.3",
 		"cucumber": "^4",
-		"cucumber-html-reporter": "^4.0.4",
-		"mysql": "^2.16.0"
-	},
-	"dependencies": {
-		"base64-img": "^1.0.4",
-		"node-datetime": "^2.1.2",
-		"request-promise": "^4.2.4",
-		"uuid": "^3.3.3"
+		"cucumber-html-reporter": "^4.0.4"
 	}
 }

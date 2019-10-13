@@ -25,8 +25,7 @@ The report file in json format is generated in the report folder.
 To view the report in html format
 
 ```
-cd report
-node report.js
+npm run report
 ```
 
 which should generate and launch the browser with the HTML report.
