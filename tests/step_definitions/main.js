@@ -16,7 +16,8 @@ switch (env) {
 }
 
 Before(function () {
-  this.apickli = new apickli.Apickli('http', environment);
+  this.apickli = new apickli.Apickli('https', environment);
+  this.apickli.addRequestHeader('User-Agent', 'apickli/2.3.3');
 });
 
 Given(/^I reset header (.*)$/, function (headerName, callback) {

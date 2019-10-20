@@ -2,7 +2,7 @@
 	"name": "sample-component-tests",
 	"version": "1.0.0",
 	"scripts": {
-		"all": "cucumber-js tests/ -t @All -f json:report/cucumber-report.json",
+		"all": "cucumber-js tests/ -f json:report/cucumber-report.json",
 		"travel": "cucumber-js tests/ -t @Travel -f json:report/cucumber-report.json",
 		"report": "node report/report.js"
 	},

@@ -6,7 +6,7 @@ var options = {
     jsonFile: './report/cucumber-report.json',
     output: './report/cucumber-report.html',
     reportSuiteAsScenarios: true,
-    launchReport: true,
+    launchReport: false,
     metadata: {
         "Environment": env
     }
